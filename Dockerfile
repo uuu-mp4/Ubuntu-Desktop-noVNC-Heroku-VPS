@@ -25,7 +25,7 @@ RUN apt-get update && \
     apt install zip -y  && \
     apt install unzip -y  && \
     apt install falkon -y  && \
-    apt install firefox-esr && \
+    apt-get install firefox-esr && \
     apt-get autoclean -y  && \
     apt-get autoremove
 

@@ -25,7 +25,7 @@ RUN apt-get update && \
     apt install zip -y  && \
     apt install unzip -y  && \
     apt install falkon -y  && \
-    apt-get install firefox && \
+    #apt-get install firefox && \
     apt-get autoclean -y && \
     apt-get autoremove
 
